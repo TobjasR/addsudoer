@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
-	echo -e "usage: addsudoer.sh <user> [suffix]>\nuser's password will be '<rootpassword><suffix>'";
+	echo -e "usage: addsudoer.sh <user> [suffix]>\nuser's password will be '<rootpassword><suffix>'\nuse \"\" for empty suffix.";
 	exit 3;
 fi
 echo "enter root password";
